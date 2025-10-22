@@ -7,7 +7,7 @@ const Doctor = () => {
   const { doctors } = useContext(AppContext);
   const navigate = useNavigate();
 
-  const [filterDoc, setFilterDoc] = useState([])
+  const [filterDoc, setFilterDoc] = useState([]);
   const [nameFilter, setNameFilter] = useState("");
   const [specialityFilter, setSpecialityFilter] = useState(speciality || "");
 
